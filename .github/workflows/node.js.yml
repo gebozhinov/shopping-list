@@ -27,5 +27,7 @@ jobs:
       run: npm run test:unit
     - name: Display username
       run: echo gebozhinov
+    - name: Install browsers
+      run: npx playwright install
     - name: Run ui tests
       run: npm run test:ui
