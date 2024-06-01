@@ -27,3 +27,5 @@ jobs:
       run: npm run test:unit
     - name: Display username
       run: echo gebozhinov
+    - name: Run ui tests
+      run: npm run test:ui
